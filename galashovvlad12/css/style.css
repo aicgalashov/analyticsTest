@@ -1,0 +1,75 @@
+html{
+    font-size: 16px;
+    font-family: Roboto,Arial,sans-serif;
+    color: #000;
+    background: #fff;
+    line-height: 1.15;
+    height:100%
+}
+
+body{
+    height:100%;   
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.form{
+    position: relative; 
+    min-width:320px;
+    max-width: 50rem;
+    height:auto;
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 0 1.43rem 14.29rem;
+    border-spacing: 0.5rem 0rem;
+}
+
+.icon-way-point{  
+    float: left;
+    width:1.5rem;
+    height:1.5rem;
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: center;
+    color: #212121;
+    border: 2px solid rgba(33,33,33,.2);
+    border-radius: 1rem;  
+}
+
+.icon-way-point span{
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+.input-adress{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+input{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 100%;
+    vertical-align: middle;
+    border:none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    outline: none;  
+    box-sizing: border-box;
+}
+
+.map{
+    float: right;
+    width:1.5rem;
+    height:auto;
+    vertical-align: middle;
+    text-align: center;  
+}
+
+.map img{
+    width:1.5rem;
+    height:1.5rem;
+    opacity: 0.5;
+}
